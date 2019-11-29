@@ -295,6 +295,7 @@ export default class ViewShot extends Component<Props> {
         collapsable={false}
         onLayout={this.onLayout}
         style={this.props.style}
+        {...this.props}
       >
         {children}
       </View>
